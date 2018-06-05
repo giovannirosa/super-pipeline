@@ -1,0 +1,110 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Tue Jun  5 23:45:14 2018
+[*]
+[dumpfile] "/home/bcc/rst17/Área de Trabalho/teste/Super/mips.vcd"
+[dumpfile_mtime] "Tue Jun  5 22:41:35 2018"
+[dumpfile_size] 258986
+[savefile] "/home/bcc/rst17/Área de Trabalho/teste/Super/mips.gtkw"
+[timestart] 1367000000
+[size] 1920 1027
+[pos] -1 -1
+*-30.000000 2644000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 196
+[signals_width] 253
+[sst_expanded] 1
+[sst_vpaned_height] 266
+@28
+clock
+@200
+-IF
+@420
+a.if_pc[31:0]
+@24
+a.if_pc_prox[31:0]
+a.if_pc_next[31:0]
+@28
+a.if_instr[31:0]
+@22
+a.if_instr_prox[31:0]
+@200
+-ID
+@24
+a.id_rs[4:0]
+a.id_rs_prox[4:0]
+a.id_rt[4:0]
+a.id_rt_prox[4:0]
+a.id_rd[4:0]
+a.id_rd_prox[4:0]
+@28
+a.id_regdst
+a.id_regdst_prox
+a.id_regwrite
+a.id_zero
+a.id_branch
+@25
+a.id_extend[31:0]
+@24
+a.id_offset[31:0]
+@28
+a.id_memread
+a.id_memread_prox
+a.id_memwrite
+a.id_memwrite_prox
+a.id_branch
+a.id_branch_prox
+@200
+-EX
+@24
+a.ex_a[31:0]
+a.ex_a_prox[31:0]
+a.ex_b[31:0]
+a.ex_b_prox[31:0]
+@22
+a.ex_rt[4:0]
+a.ex_rt_prox[4:0]
+a.ex_rd[4:0]
+a.ex_rd_prox[4:0]
+a.ex_regrd[4:0]
+a.ex_regrd_prox[4:0]
+@28
+a.ex_regdst
+a.ex_aluop[1:0]
+@24
+a.ex_alub[31:0]
+a.ex_aluout[31:0]
+a.ex_aluout_prox[31:0]
+@28
+a.ex_regwrite
+a.ex_memtoreg
+@200
+-MEM
+@24
+a.mem_b[31:0]
+a.mem_b_prox[31:0]
+a.mem_aluout[31:0]
+a.mem_aluout_prox[31:0]
+@28
+a.mem_memwrite_prox
+a.mem_memread_prox
+@22
+a.mem_regrd[4:0]
+@28
+a.mem_regwrite
+a.mem_regwrite_prox
+@24
+a.mem_memout_prox[31:0]
+@200
+-WB
+@24
+a.wb_aluout[31:0]
+a.wb_aluout_prox[31:0]
+a.wb_memout_prox[31:0]
+@22
+a.wb_regrd[4:0]
+a.wb_regrd_prox[4:0]
+@28
+a.wb_regwrite
+a.wb_regwrite_prox
+[pattern_trace] 1
+[pattern_trace] 0
