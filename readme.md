@@ -1,4 +1,4 @@
-# Arquitetura Trabalho 1
+# Arquitetura Trabalho 1 - Extra
 
 Trabalho 1 da matéria de Arquitetura do primeiro semestre de 2018, Universidade Federal do Paraná - UFPR.
 
