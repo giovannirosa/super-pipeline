@@ -25,7 +25,7 @@ Existe um makefile neste diretório com os seguintes comandos disponíveis:
 * basic_types.vhd: Foi inserida a constante ADDI.
 * rom32.vhd: Foi modificado para testes.
 * control_pipeline.vhd: Foi adicionado o caso de saída para ADDI.
-* reg_bank.vhd: Foi alterado para suportar leitura de 2 instruções ao mesmo tempo. Sendo que uma sera alu/branch e uma outra de load/store.
+* reg_bank.vhd: Foi alterado para suportar leitura de 2 instruções ao mesmo tempo. Sendo que a primeira sera alu/branch e a segunda de load/store.
 * mips_pipeline.vhd: Foi modificado para suportar mais de uma instrução no mesmo ciclo e ADDI.
     - Estágio IF: Adição do registrador PC+8. MUX que determina se PC receberá PC+8 ou Branch.
     - Estágio ID: Operação de escrita no registrador. Foi acrescentado mais um processo para estender o valor do imediato e também mais uma unidade de controle para a instrução seguinte.
